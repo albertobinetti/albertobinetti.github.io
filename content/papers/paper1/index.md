@@ -1,17 +1,15 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2003-10-15
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2001." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "People's Understanding of Inflation" 
+date: 2024-05-01
+tags: ["Inflation", "survey", "experiment", "public perceptions", "unemployment"]
+author: ["Alberto Binetti","Francesco Nuzzi","Stefanie Stantcheva"]
+description: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views"
+summary: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views." 
 cover:
-    image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    image: "conjoint_ratio_coefplot_pres.png"
+    alt: "Marginal rate of substitution between inflation and unemployment"
     relative: false
-editPost:
-    URL: "http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil?series=von-igelfeld-series"
-    Text: "Journal of Oleic Science"
+
 
 ---
 
@@ -19,43 +17,17 @@ editPost:
 
 ##### Download
 
-+ [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/latex-paper)
++ [Paper](inflation_bns.pdf)
+
 
 ---
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This paper studies people’s understanding of inflation–their perceived causes, consequences, trade-offs–and the policies supported to mitigate its effects. We design a new, detailed on- line survey based on the rich existing literature in economics with two experimental components—a conjoint experiment and an information experiment—to examine how well public views align with established economic theories. Our key findings show that the major perceived causes of inflation include government actions, such as increased foreign aid and war-related expenditures, alongside rises in production costs attributed to recent events like the COVID-19 pandemic, oil price fluctuations, and supply chain disruptions. Respondents’ anticipate many negative consequences of inflation but the most noted one is the increased complexity and difficulty in household decision-making. Partisan differences emerge distinctly, with Republicans more likely to attribute inflation to government policies and foresee broader negative outcomes, whereas Democrats anticipate greater inequality effects. Inflation is perceived as an unambiguously negative phenomenon without any potential positive economic correlates. Notably, there is a widespread belief that managing inflation can be achieved with- out significant trade-offs, such as reducing economic activity or increasing unemployment. These perceptions are hard to move experimentally. In terms of policy responses, there is re- sistance to monetary tightening, consistent with the perceived absence of trade-offs and the belief that it is unnecessary to reduce economic activity to fight inflation. The widespread misconception that inflation rises following increases in interest rates even leads to support for rate cuts to reduce inflation. There is a clear preference for policies that are perceived to have other benefits, such as reducing government debt in progressive ways or increasing corporate taxes, and for support for vulnerable households, despite potential inflationary effects.
 
 ---
 
-##### Figure 6: Some Uses For Olive Oil
+##### Marginal rate of substitution between inflation and unemployment
 
-![](paper1.png)
-
----
-
-##### Citation
-
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2001. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil?series=von-igelfeld-series.
-
-```BibTeX
-@article{UV01,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2001},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34),
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil?series=von-igelfeld-series}}
-```
-
----
-
-##### Related material
-
-+ [Slides for long presentation](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)
+![](conjoint_ratio_coefplot_pres.png)
