@@ -46,13 +46,13 @@ params:
           enabled: true
           title: Alberto Binetti
           subtitle: "Hi! I am an incoming Ph.D. student in economics at Princeton. I am interested (for now) in topics in political and behavioral economics. From Naples."
-          imageUrl: "picture.jpeg"
+          imageUrl: "headhsot.png"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Alberto Binetti
           buttons:
-            - name: Books
-              url: books/
+            - name: Working papers
+              url: papers/
             - name: Working papers
               url: papers/
             - name: Work in progress
@@ -64,6 +64,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Google Scholar
+          url: https://twitter.com/Al_Bi99
         - name: Twitter
           url: https://twitter.com/Al_Bi99
 
