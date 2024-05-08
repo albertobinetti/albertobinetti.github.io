@@ -53,8 +53,6 @@ params:
           buttons:
             - name: Working papers
               url: papers/
-            - name: Working papers
-              url: papers/
             - name: Work in progress
               url: workinprogress/
 
