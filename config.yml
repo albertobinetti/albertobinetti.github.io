@@ -62,7 +62,7 @@ params:
         - name: CV
           url: cv.pdf
         - name: Google Scholar
-          url: https://twitter.com/Al_Bi99
+          url: https://scholar.google.com/citations?user=zUWmT7oAAAAJ&hl=en&oi=ao
         - name: Twitter
           url: https://twitter.com/Al_Bi99
 
