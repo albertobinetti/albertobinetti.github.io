@@ -47,7 +47,6 @@ params:
           title: "<span style='color: #000080;'>Alberto Binetti</span>"
           subtitle: "Hi! I am an incoming Ph.D. student in economics at <a href='https://economics.princeton.edu' style='color: #000080; font-weight: bold;'>Princeton</a>. I am interested (for now) in topics in political and behavioral economics. From Naples.
           <br>
-          <br>
           You can find my CV <a href='cv.pdf' style='color: #000080; font-weight: bold;'>here</a>."
           imageUrl: "headshot.png"
           imageWidth: 160
