@@ -18,6 +18,7 @@ cover:
 ##### Download
 
 + [Paper](inflation_bns.pdf)
++ [Slides](slides_v3.pdf)
 
 
 ---
