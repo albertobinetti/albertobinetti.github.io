@@ -45,7 +45,9 @@ params:
     profileMode:
           enabled: true
           title: Alberto Binetti
-          subtitle: "Hi! I am an incoming Ph.D. student in economics at Princeton. I am interested (for now) in topics in political and behavioral economics. From Naples."
+          subtitle: "Hi! I am an incoming Ph.D. student in economics at Princeton. I am interested (for now) in topics in political and behavioral economics. From Naples.
+          
+          You can find my CV [**here**](cv.pdf)."
           imageUrl: "headshot.png"
           imageWidth: 160
           imageHeight: 160
