@@ -18,7 +18,7 @@ menu:
           url: workinprogress/
           weight: 2
         - name: CV
-          url: cv/
+          url: cv/cv.pdf
           weight: 3
 
 
