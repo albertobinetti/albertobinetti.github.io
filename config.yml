@@ -44,7 +44,7 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: "<span style='color: blue;'>Alberto Binetti</span>"
+          title: "<span style='color: #000080;'>Alberto Binetti</span>"
           subtitle: "Hi! I am an incoming Ph.D. student in economics at Princeton. I am interested (for now) in topics in political and behavioral economics. From Naples.
           <br>
           You can find my CV [**here**](cv.pdf)."
