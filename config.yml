@@ -17,9 +17,6 @@ menu:
         - name: Work in progress
           url: workinprogress/
           weight: 2
-        - name: CV
-          url: cv/cv.pdf
-          weight: 3
 
 
 params:
@@ -58,12 +55,12 @@ params:
               url: papers/
             - name: Work in progress
               url: workinprogress/
-            - name: CV
-              url: cv/
 
     socialIcons:
         - name: Email
           url: mailto:abinetti@princeton.edu
+        - name: CV
+          url: cv.pdf
         - name: Google Scholar
           url: https://scholar.google.com/citations?user=zUWmT7oAAAAJ&hl=en&oi=ao
         - name: Twitter
