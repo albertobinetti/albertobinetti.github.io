@@ -18,7 +18,7 @@ cover:
 ##### Download
 
 + [Paper](6jan_ab_public.pdf)
-
++ [Slides](slides_v3.pdf)
 
 ---
 
