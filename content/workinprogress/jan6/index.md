@@ -1,6 +1,6 @@
 ---
 title: "The Short-Run Consequences of January 6" 
-date: 2024-05-01
+date: 2024-06-01
 tags: ["capitol", "narratives", "twitter", "public opinion", "trump"]
 author: ["Alberto Binetti"]
 description: "This paper studies politicians and voters' reactions to the events of January 6, 2021."
