@@ -6,8 +6,8 @@ author: ["Alberto Binetti","Francesco Nuzzi","Stefanie Stantcheva"]
 description: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views"
 summary: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views." 
 cover:
-    image: "conjoint_ratio_coefplot_pres.png"
-    alt: "Marginal rate of substitution between inflation and unemployment"
+    image: "amce_bypolleaning_manual.png"
+    alt: "Relative weights of inflation and unemployment"
     relative: false
 
 
@@ -29,6 +29,6 @@ This paper studies people’s understanding of inflation–their perceived cause
 
 ---
 
-##### Marginal rate of substitution between inflation and unemployment
+##### How your news source affects your understanding of inflation
 
-![](conjoint_ratio_coefplot_pres.png)
+![](news_understanding.png)
