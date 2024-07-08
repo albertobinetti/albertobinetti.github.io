@@ -6,8 +6,8 @@ author: ["Alberto Binetti"]
 description: "This paper studies politicians' and voters' reactions to the events of January 6, 2021."
 summary: "This paper studies politicians' and voters' reactions to the events of January 6, 2021." 
 cover:
-    image: "partisan_narratives_capitol_new.png"
-    alt: "Partisan narratives about capitol"
+    image: "random_forest_anes_site.png"
+    alt: "Attitudes towards January 6 have a persistent impact"
     relative: false
 
 
@@ -30,4 +30,4 @@ This paper studies politicians' and voters’ reaction to the attack to Capitol 
 
 ##### Attitudes towards January 6 have a persistent impact
 
-![](random_forest_anes.png)
+![](random_forest_anes_site.png)
