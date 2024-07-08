@@ -28,6 +28,6 @@ This paper studies politicians' and voters’ reaction to the attack to Capitol 
 
 ---
 
-##### Partisan narratives about capitol
+##### Attitudes towards January 6 have a persistent impact
 
-![](partisan_narratives_capitol_new.png)
+![](random_forest_anes.png)
