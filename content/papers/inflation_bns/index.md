@@ -9,7 +9,8 @@ cover:
     image: "amce_bypolleaning_manual.png"
     alt: "Relative weights of inflation and unemployment"
     relative: false
-
+editPost:
+    Text: "R&R JME"
 
 ---
 
