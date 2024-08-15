@@ -18,7 +18,7 @@ editPost:
 
 ##### Download
 + [JME Version](https://www.sciencedirect.com/science/article/pii/S0304393224001053?via%3Dihub)
-+ [Ungated WP](inflation_bns.pdf)
++ [Ungated WP](https://socialeconomicslab.org/research/working-papers/peoples-understanding-of-inflation/)
 + [Slides](slides_v3.pdf)
 
 
