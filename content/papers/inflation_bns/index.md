@@ -10,7 +10,8 @@ cover:
     alt: "Relative weights of inflation and unemployment"
     relative: false
 editPost:
-    Text: "Forthcoming JME"
+    URL: "https://doi.org/10.1016/j.jmoneco.2024.103652"
+    Text: "Journal of Monetary Economics"
 
 ---
 
