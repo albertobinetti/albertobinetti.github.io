@@ -3,22 +3,22 @@ title: "People's Understanding of Inflation"
 date: 2024-07-01
 tags: ["Inflation", "survey", "experiment", "public perceptions", "unemployment"]
 author: ["Alberto Binetti","Francesco Nuzzi","Stefanie Stantcheva"]
-description: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views. R&R JME"
-summary: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views. R&R JME" 
+description: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views. Forthcoming JME"
+summary: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views. Forthcoming JME" 
 cover:
     image: "amce_bypolleaning_manual.png"
     alt: "Relative weights of inflation and unemployment"
     relative: false
 editPost:
-    Text: "R&R JME"
+    Text: "Forthcoming JME"
 
 ---
 
 ---
 
 ##### Download
-
-+ [Paper](inflation_bns.pdf)
++ [JME Version](https://www.sciencedirect.com/science/article/pii/S0304393224001053?via%3Dihub)
++ [Ungated WP](inflation_bns.pdf)
 + [Slides](slides_v3.pdf)
 
 

@@ -56,7 +56,7 @@ params:
           imageHeight: 160
           imageTitle: Alberto Binetti
           buttons:
-            - name: Working papers
+            - name: Published papers
               url: papers/
             - name: Work in progress
               url: workinprogress/
