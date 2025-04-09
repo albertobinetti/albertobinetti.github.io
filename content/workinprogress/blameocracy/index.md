@@ -1,8 +1,8 @@
 ---
 title: "Blameocracy: Causal Attribution in Political Communication" 
-date: 2025-04-01
+date: 2025-04-09
 tags: ["text-as-data", "narratives", "negative campaining", "affective polarization", "voting"]
-author: ["Francesco Bilotta" "Alberto Binetti" "Giacomo Manferdini"]
+author: ["Francesco Bilotta", "Alberto Binetti" ,"Giacomo Manferdini"]
 description: "This paper studies why and how much politicians rely on causal claims."
 summary: "This paper studies why and how much politicians rely on causal claims." 
 cover:
