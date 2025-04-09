@@ -8,10 +8,8 @@ summary: "This paper studies why and how much politicians rely on causal claims.
 cover:
     image: "time_party_cs.pdf"
     alt: "The Evolution of Causal Tweets"
-    relative: false
+    relative: true
 
-
----
 
 ---
 
