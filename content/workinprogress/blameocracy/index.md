@@ -16,7 +16,7 @@ cover:
 ##### Download
 
 + [Paper](blameocracy_public.pdf)
-
++ [AI Podcast](ai_podcast.wav)
 ---
 
 ##### Abstract
