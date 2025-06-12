@@ -21,14 +21,7 @@ cover:
 
 ##### Abstract
 
-We propose a supervised method to detect causal attribution in political texts,
-distinguishing between expressions of merit and blame. Analyzing four million
-tweets shared by U.S. Congress members from 2012 to 2023, we document a pronounced shift toward causal attribution following the 2016 presidential election.
-The shift reflects changes in rhetorical strategy rather than compositional variation in the actors or topics of the political debate. Within causal communication,
-a trade-off emerges between positive and negative tone, with power status as the
-key determinant: government emphasizes merit, while opposition casts blame.
-This pattern distinguishes causal from purely affective communication. Additionally, we find that blame is associated with lower trust in politicians, perceived
-government effectiveness, and spreads more virally than merit.
+We propose a supervised method to detect causal attribution in political texts, distinguishing between expressions of merit and blame. Analyzing four million tweets shared by U.S. Congress members from 2012 to 2023, we document a pronounced shift toward causal attribution following the 2016 presidential election. The shift reflects changes in rhetorical strategy rather than compositional variation in the actors or topics of the political debate. Within causal communication, a trade-off emerges between positive and negative tone, with power status as the key determinant: government emphasizes merit, while opposition casts blame. This pattern distinguishes causal from purely affective communication. Finally, we show that blame is markedly more viral than merit, with this gap widening in the upper tail of the virality distribution, where blame is increasingly more prevalent among the most widely shared tweets.
 
 ---
 
