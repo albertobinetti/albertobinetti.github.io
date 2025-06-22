@@ -6,8 +6,7 @@ author: ["Francesco Bilotta", "Alberto Binetti" ,"Giacomo Manferdini"]
 description: "This paper studies why and how much politicians rely on causal claims, as well as how blame is more viral."
 summary: "This paper studies why and how much politicians rely on causal claims, as well as how blame is more viral." 
 cover:
-    image: "time_party_cs.png"
-    alt: "The Evolution of Causal Tweets"
+    image: "blame_pic.png"
     relative: true
 
 
