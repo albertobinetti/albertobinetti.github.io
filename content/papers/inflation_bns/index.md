@@ -6,8 +6,7 @@ author: ["Alberto Binetti","Francesco Nuzzi","Stefanie Stantcheva"]
 description: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views. Forthcoming JME"
 summary: "This paper studies how people understand inflation, how they trade it off with unemployment, and what shapes their policy views. Forthcoming JME" 
 cover:
-    image: "amce_bypolleaning_manual.png"
-    alt: "Relative weights of inflation and unemployment"
+    image: "inflation_pic.png"
     relative: false
 editPost:
     URL: "https://doi.org/10.1016/j.jmoneco.2024.103652"
