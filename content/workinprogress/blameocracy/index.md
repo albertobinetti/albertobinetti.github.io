@@ -1,7 +1,7 @@
 ---
 title: "Blameocracy: Causal Rhetoric in Politics" 
 
-tags: ["text-as-data", "narratives", "negative campaigning", "donations", affective polarization", "voting"]
+tags: ["text-as-data", "narratives", "negative campaigning", "donations", "affective polarization", "voting"]
 author: ["Francesco Bilotta", "Alberto Binetti" ,"Giacomo Manferdini"]
 description: "This paper studies why and how much politicians rely on causal claims, their monetary returns, their usage, and their consequences for societal outcomes."
 summary: "This paper studies why and how much politicians rely on causal claims, their monetary returns, their usage, and their consequences for societal outcomes."
