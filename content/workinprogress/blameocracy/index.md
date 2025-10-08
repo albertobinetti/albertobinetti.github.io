@@ -1,10 +1,10 @@
 ---
-title: "Blameocracy: Causal Attribution in Political Communication" 
+title: "Blameocracy: Causal Rhetoric in Politics" 
 
-tags: ["text-as-data", "narratives", "negative campaigning", "affective polarization", "voting"]
+tags: ["text-as-data", "narratives", "negative campaigning", "donations", affective polarization", "voting"]
 author: ["Francesco Bilotta", "Alberto Binetti" ,"Giacomo Manferdini"]
-description: "This paper studies why and how much politicians rely on causal claims, as well as how blame is more viral."
-summary: "This paper studies why and how much politicians rely on causal claims, as well as how blame is more viral." 
+description: "This paper studies why and how much politicians rely on causal claims, their monetary returns, their usage, and their consequences for societal outcomes."
+summary: "This paper studies why and how much politicians rely on causal claims, their monetary returns, their usage, and their consequences for societal outcomes."
 cover:
     image: "blame_pic.png"
     relative: true
@@ -20,10 +20,10 @@ cover:
 
 ##### Abstract
 
-We propose a supervised method to detect causal attribution in political texts, distinguishing between expressions of merit and blame. Analyzing four million tweets shared by U.S. Congress members from 2012 to 2023, we document a pronounced shift toward causal attribution following the 2016 presidential election. The shift reflects changes in rhetorical strategy rather than compositional variation in the actors or topics of the political debate. Within causal communication, a trade-off emerges between positive and negative tone, with power status as the key determinant: government emphasizes merit, while opposition casts blame. This pattern distinguishes causal from purely affective communication. Finally, we show that blame is markedly more viral than merit, with this gap widening in the upper tail of the virality distribution, where blame is increasingly more prevalent among the most widely shared tweets.
+We study the supply and effects of causal rhetoric in U.S. politics. We conceptualize causal rhetoric through blame and merit -- claims that assign negative or positive outcomes to political action -- and train a supervised classifier to detect these forms in over a decade of congressional tweets. Causal rhetoric has risen rapidly and pervasively, displacing affective messaging. Its production trades off revenues and costs. Quasi-random variation in Twitter adoption shows that blame increases small-donor revenues by expanding donor count, while merit raises average donation size. Fine-grained legislative data suggest that policy ownership determines relative costs: blame is cheaper for opponents, merit for proposers. Finally, causal rhetoric has downstream effects on societal outcomes, influencing protest activity, polarization, and institutional trust.
 
 ---
 
-##### The determinants of blame
+##### The evolution of blame over time
 
-![](coefs_author_bc.pdf)
+![](time_decomposition_blame.pdf)
