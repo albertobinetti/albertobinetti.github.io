@@ -15,12 +15,11 @@ cover:
 ##### Download
 
 + [Paper](blameocracy_public.pdf)
-+ [AI Podcast](ai_podcast.wav)
 ---
 
 ##### Abstract
 
-This paper studies the supply and effects of causal rhetoric in U.S. politics. We define causal rhetoric as assigning responsibility for political outcomes, via claims of blame and merit. Training a supervised classifier, we detect causal rhetoric in over a decade of congressional tweets, finding that its supply has risen rapidly and pervasively, displacing affective messaging. We show that the production of causal rhetoric involves a trade-off between revenues and costs. First, quasi-random variation in Twitter adoption shows that blame increases small-donor revenues by expanding donor count, while merit raises average donation size. Second, fine-grained legislative data suggest that policy ownership determines relative costs: blame is cheaper for opponents, merit for proposers. Finally, causal rhetoric has downstream effects on societal outcomes, fostering protest activity and shaping polarization and institutional trust.
+This paper studies causal rhetoric in politics: language that links political actions to outcomes through blame and credit. We measure its use in a corpus of 4.2 million congressional tweets spanning 2012 to 2023 and analyze its economics. We document that causal rhetoric becomes increasingly central in politicians' communication. Leveraging quasi-exogenous variation in Twitter penetration, we show that causal rhetoric---especially blame---generates political returns in small-donor contributions: blame alone mobilizes additional donors, whereas credit increases only average giving. Using fine-grained data on legislative activity, we find that politicians strategically reallocate blame and credit as policy ownership shifts their relative credibility. Finally, economic causal rhetoric appears only weakly grounded in mainstream macroeconomics, especially blame.
 
 ---
 
