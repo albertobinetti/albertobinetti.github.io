@@ -44,15 +44,14 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: "<span style='color: var(--accent);'>Alberto Binetti</span>"
+          title: "Alberto Binetti"
           subtitle: "Hi! I am a [Ph.D. candidate](https://www.youtube.com/watch?v=qqrCoyVK80I) in economics at <a href='https://economics.princeton.edu' style='font-weight: bold;'>Princeton</a> affiliated with the <a href='https://irs.princeton.edu/students' style='font-weight: bold;'>Industrial Relations Section</a>.
           I received both my Bachelor's and my Master's from <a href='https://www.unibocconi.it/it/node/1' style='font-weight: bold;'>Bocconi</a>.
           <br> <br>
           I am interested in labor and industrial organization, especially in innovation and inequality. From [Naples.](https://www.youtube.com/watch?v=Dqo730l_eCs)
           <br> <br>
           You can find my CV <a href='cv.pdf' style='font-weight: bold;'>here</a>."
-          imageUrl: "headshot_irs.jpg"
-          imageCrop: "4000x4000 Top"
+          imageUrl: "portraits/headshot-red.jpg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Alberto Binetti
@@ -61,6 +60,35 @@ params:
               url: papers/
             - name: Work in progress
               url: workinprogress/
+
+    colorPalettes:
+        - id: red
+          name: Red-orange
+          accent: "#d0311f"
+          muted: "#f1b4ad"
+          soft: "#fbeae8"
+          surface: "#f8f4f3"
+          border: "#eee0dd"
+          portrait: "portraits/headshot-red.jpg"
+          icon: "icons/favicon-red.svg"
+        - id: blue
+          name: Dark blue
+          accent: "#203b63"
+          muted: "#bac9dd"
+          soft: "#e8eef6"
+          surface: "#f2f5f9"
+          border: "#dde5ee"
+          portrait: "portraits/headshot-blue.jpg"
+          icon: "icons/favicon-blue.svg"
+        - id: green
+          name: Deep green
+          accent: "#205541"
+          muted: "#b9d2c6"
+          soft: "#e7f1eb"
+          surface: "#f2f6f3"
+          border: "#dce8e0"
+          portrait: "portraits/headshot-green.jpg"
+          icon: "icons/favicon-green.svg"
 
     socialIcons:
         - name: Email
@@ -98,11 +126,3 @@ markup:
         endLevel: 2
         ordered: false
         startLevel: 2
-
-# Make the original portrait available to Hugo image processing.
-module:
-    mounts:
-        - source: assets
-          target: assets
-        - source: static/headshot_irs.jpg
-          target: assets/headshot_irs.jpg

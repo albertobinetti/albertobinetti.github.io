@@ -1,0 +1,8 @@
+{{- $palettes := slice }}
+{{- range site.Params.colorPalettes }}
+    {{- $palettes = $palettes | append (dict "id" .id "accent" .accent "muted" .muted "soft" .soft "surface" .surface "border" .border "portrait" (.portrait | relURL) "icon" (.icon | relURL)) }}
+{{- end }}
+<script>window.sitePalettes = {{ $palettes | jsonify | safeJS }};</script>
+{{- $script := resources.Get "js/palette.js" | resources.Minify }}
+{{/* Inline initialization applies a remembered color before the first paint. */}}
+<script>{{ $script.Content | safeJS }}</script>
