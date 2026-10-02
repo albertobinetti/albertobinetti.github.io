@@ -10,16 +10,16 @@
     --entry: rgb(255, 255, 255);
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
+    --tertiary: #bac9dd;
     --gray: rgb(165, 165, 165);
     --content: rgb(30, 30, 30);
     --hljs-bg: rgb(28, 29, 33);
-    --code-bg: rgb(245, 245, 245);
-    --border: rgb(238, 238, 238);
-    /* Median color sampled from the sweater in headshot_irs.jpg. */
-    --accent: #d0311f;
-    --accent-muted: #f1b4ad;
-    --accent-soft: #fbeae8;
+    --code-bg: #f2f5f9;
+    --border: #dde5ee;
+    /* Blue is the default palette, including when JavaScript is unavailable. */
+    --accent: #203b63;
+    --accent-muted: #bac9dd;
+    --accent-soft: #e8eef6;
     --semibold: 500;
     --homesize: 16px;
     --textsize: 18px;

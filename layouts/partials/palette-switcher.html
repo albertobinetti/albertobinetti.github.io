@@ -2,8 +2,7 @@
     {{- range site.Params.colorPalettes }}
     <button class="palette-swatch" type="button" data-palette-choice="{{ .id }}"
         style="--swatch-color: {{ .accent | safeCSS }}" title="{{ .name }}"
-        aria-label="Use {{ lower .name }} colors" aria-pressed="{{ if eq .id "red" }}true{{ else }}false{{ end }}">
-        <span aria-hidden="true">✓</span>
+        aria-label="Use {{ lower .name }} colors" aria-pressed="{{ if eq .id "blue" }}true{{ else }}false{{ end }}">
     </button>
     {{- end }}
 </div>

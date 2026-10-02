@@ -4,7 +4,6 @@
 
     const storageKey = 'website-palette';
     const root = document.documentElement;
-    const icons = new Map();
     let current = palettes[0];
 
     try {
@@ -35,39 +34,11 @@
             image.src = palette.icon;
         });
 
-        function publishIcon(icon) {
-            if (current.id !== palette.id) return;
-            const favicon = document.getElementById('site-favicon');
-            const appleIcon = document.getElementById('site-apple-icon');
-            if (favicon) favicon.href = icon.small;
-            if (appleIcon) appleIcon.href = icon.large;
-        }
-
-        if (icons.has(palette.id)) {
-            publishIcon(icons.get(palette.id));
-            return;
-        }
-
-        // Rasterize the matching AB SVG so browsers receive a standard PNG favicon.
-        const image = new Image();
-        image.onload = () => {
-            try {
-                const canvas = document.createElement('canvas');
-                const context = canvas.getContext('2d');
-                if (!context) return;
-                const render = size => {
-                    canvas.width = canvas.height = size;
-                    context.drawImage(image, 0, 0, size, size);
-                    return canvas.toDataURL('image/png');
-                };
-                const icon = { small: render(32), large: render(180) };
-                icons.set(palette.id, icon);
-                publishIcon(icon);
-            } catch (_) {
-                // The static red favicon remains available if canvas is restricted.
-            }
-        };
-        image.src = palette.icon;
+        // Keep ordinary, crawlable URLs in the page metadata.
+        const favicon = document.getElementById('site-favicon');
+        const appleIcon = document.getElementById('site-apple-icon');
+        if (favicon) favicon.href = palette.favicon;
+        if (appleIcon) appleIcon.href = palette.appleIcon;
     }
 
     function applyPage(palette) {

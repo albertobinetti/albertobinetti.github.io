@@ -20,7 +20,9 @@ menu:
 
 
 params:
-    description: "Hi! I am a Ph.D. candidate in economics at Princeton affiliated with the Industrial Relations Section. I am interested in labor and industrial organization, especially in innovation and inequality. From Naples."
+    homeTitle: "Alberto Binetti | Economics Ph.D. Candidate at Princeton"
+    description: "Alberto Binetti is a Ph.D. candidate in economics at Princeton University, studying labor, industrial organization, innovation, and inequality."
+    images: ["portraits/headshot-blue.jpg"]
     author: Alberto Binetti
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
@@ -45,13 +47,13 @@ params:
     profileMode:
           enabled: true
           title: "Alberto Binetti"
-          subtitle: "Hi! I am a [Ph.D. candidate](https://www.youtube.com/watch?v=qqrCoyVK80I) in economics at <a href='https://economics.princeton.edu' style='font-weight: bold;'>Princeton</a> affiliated with the <a href='https://irs.princeton.edu/students' style='font-weight: bold;'>Industrial Relations Section</a>.
+          subtitle: "Hi! I am a <a class='subtle-link' href='https://www.youtube.com/watch?v=qqrCoyVK80I'>Ph.D. candidate</a> in economics at <a href='https://economics.princeton.edu' style='font-weight: bold;'>Princeton</a> affiliated with the <a href='https://irs.princeton.edu/students' style='font-weight: bold;'>Industrial Relations Section</a>.
           I received both my Bachelor's and my Master's from <a href='https://www.unibocconi.it/it/node/1' style='font-weight: bold;'>Bocconi</a>.
           <br> <br>
-          I am interested in labor and industrial organization, especially in innovation and inequality. From [Naples.](https://www.youtube.com/watch?v=Dqo730l_eCs)
+          I am interested in labor and industrial organization, especially in innovation and inequality. From <a class='subtle-link' href='https://www.youtube.com/watch?v=Dqo730l_eCs'>Naples.</a>
           <br> <br>
           You can find my CV <a href='cv.pdf' style='font-weight: bold;'>here</a>."
-          imageUrl: "portraits/headshot-red.jpg"
+          imageUrl: "portraits/headshot-blue.jpg"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Alberto Binetti
@@ -62,15 +64,6 @@ params:
               url: workinprogress/
 
     colorPalettes:
-        - id: red
-          name: Red-orange
-          accent: "#d0311f"
-          muted: "#f1b4ad"
-          soft: "#fbeae8"
-          surface: "#f8f4f3"
-          border: "#eee0dd"
-          portrait: "portraits/headshot-red.jpg"
-          icon: "icons/favicon-red.svg"
         - id: blue
           name: Dark blue
           accent: "#203b63"
@@ -80,6 +73,19 @@ params:
           border: "#dde5ee"
           portrait: "portraits/headshot-blue.jpg"
           icon: "icons/favicon-blue.svg"
+          favicon: "icons/favicon-blue.png"
+          appleicon: "icons/apple-touch-blue.png"
+        - id: red
+          name: Red-orange
+          accent: "#d0311f"
+          muted: "#f1b4ad"
+          soft: "#fbeae8"
+          surface: "#f8f4f3"
+          border: "#eee0dd"
+          portrait: "portraits/headshot-red.jpg"
+          icon: "icons/favicon-red.svg"
+          favicon: "icons/favicon-red.png"
+          appleicon: "icons/apple-touch-red.png"
         - id: green
           name: Deep green
           accent: "#205541"
@@ -89,6 +95,20 @@ params:
           border: "#dce8e0"
           portrait: "portraits/headshot-green.jpg"
           icon: "icons/favicon-green.svg"
+          favicon: "icons/favicon-green.png"
+          appleicon: "icons/apple-touch-green.png"
+
+        - id: black
+          name: Black
+          accent: "#181818"
+          muted: "#c7c7c7"
+          soft: "#ededed"
+          surface: "#f5f5f5"
+          border: "#dfdfdf"
+          portrait: "portraits/headshot-black.jpg"
+          icon: "icons/favicon-black.svg"
+          favicon: "icons/favicon-black.png"
+          appleicon: "icons/apple-touch-black.png"
 
     socialIcons:
         - name: Email
@@ -101,10 +121,10 @@ params:
           url: https://twitter.com/Al_Bi99
 
     assets:
-        favicon: "favicon-accent.ico"
-        favicon16x16: "favicon-accent-16x16.png"
-        favicon32x32: "favicon-accent-32x32.png"
-        apple_touch_icon: "apple-touch-icon-accent.png"
+        favicon: "icons/favicon-blue.png"
+        favicon16x16: "favicon-16x16.png"
+        favicon32x32: "favicon-32x32.png"
+        apple_touch_icon: "icons/apple-touch-blue.png"
         disableHLJS: true
         disableScrollBarStyle: true
     cover:
@@ -112,7 +132,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Alberto Binetti"
-      icon: favicon-accent.ico
+      icon: icons/favicon-blue.svg
       iconHeight: 18
 
 markup:

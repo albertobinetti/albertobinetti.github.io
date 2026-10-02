@@ -1,7 +1,7 @@
 .profile-heading {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: baseline;
     gap: 8px 20px;
     margin-bottom: 4px;
 }
@@ -19,11 +19,7 @@
 .palette-switcher {
     display: none;
     flex: 0 0 auto;
-    gap: 2px;
-    padding: 3px;
-    border: 1px solid var(--tertiary);
-    border-radius: 4px;
-    background: var(--entry);
+    gap: 1px;
     line-height: 1;
 }
 
@@ -34,21 +30,11 @@ html[data-palette] .palette-switcher {
 .palette-swatch {
     display: grid;
     place-items: center;
-    width: 24px;
-    height: 24px;
+    width: 12px;
+    height: 12px;
     background: var(--swatch-color);
     border-radius: 1px;
     color: white;
-}
-
-.palette-swatch span {
-    visibility: hidden;
-    font-size: 16px;
-    line-height: 1;
-}
-
-.palette-swatch[aria-pressed="true"] span {
-    visibility: visible;
 }
 
 .palette-swatch:hover {

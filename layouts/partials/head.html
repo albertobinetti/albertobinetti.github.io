@@ -8,7 +8,7 @@
 {{- end }}
 
 {{- /* Title */}}
-<title>{{ if .IsHome }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ end }}{{ site.Title }}</title>
+<title>{{ if .IsHome }}{{ site.Params.homeTitle | default site.Title }}{{ else }}{{ if .Title }}{{ .Title }} | {{ end }}{{ site.Title }}{{ end }}</title>
 
 {{- /* Meta */}}
 {{- if .IsHome }}
@@ -91,7 +91,7 @@
 {{- end }}
 
 {{- /* Favicons */}}
-<link id="site-favicon" rel="icon" type="image/png" sizes="32x32" href="{{ site.Params.assets.favicon32x32 | default "favicon-32x32.png" | absURL }}">
+<link id="site-favicon" rel="icon" type="image/png" sizes="96x96" href="{{ site.Params.assets.favicon | default "favicon-32x32.png" | absURL }}">
 <link id="site-apple-icon" rel="apple-touch-icon" href="{{ site.Params.assets.apple_touch_icon | default "apple-touch-icon.png" | absURL }}">
 <!-- <link rel="mask-icon" href="{{ site.Params.assets.safari_pinned_tab | default "safari-pinned-tab.svg" | absURL }}"> -->
 <meta name="theme-color" content="{{ site.Params.assets.theme_color | default "#2e2e33" }}">

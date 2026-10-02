@@ -1,6 +1,6 @@
 {{- $palettes := slice }}
 {{- range site.Params.colorPalettes }}
-    {{- $palettes = $palettes | append (dict "id" .id "accent" .accent "muted" .muted "soft" .soft "surface" .surface "border" .border "portrait" (.portrait | relURL) "icon" (.icon | relURL)) }}
+    {{- $palettes = $palettes | append (dict "id" .id "accent" .accent "muted" .muted "soft" .soft "surface" .surface "border" .border "portrait" (.portrait | relURL) "icon" (.icon | relURL) "favicon" (.favicon | relURL) "appleIcon" (.appleicon | relURL)) }}
 {{- end }}
 <script>window.sitePalettes = {{ $palettes | jsonify | safeJS }};</script>
 {{- $script := resources.Get "js/palette.js" | resources.Minify }}
