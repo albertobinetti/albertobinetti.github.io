@@ -1,0 +1,25 @@
+/* Keep every link in the sweater color, including visited and hover states. */
+body a:any-link,
+body a:any-link:hover,
+body a:any-link:active {
+    color: var(--accent);
+}
+
+/* These headings sit above a link that makes the whole card clickable. */
+.entry-header h2,
+.archive-entry-title,
+#searchResults li {
+    color: var(--accent);
+}
+
+.paginav a .title {
+    color: inherit;
+}
+
+.pagination a {
+    background: var(--accent-soft);
+}
+
+.pagination a:hover {
+    background: var(--accent-muted);
+}

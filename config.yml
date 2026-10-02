@@ -44,14 +44,15 @@ params:
     math: true
     profileMode:
           enabled: true
-          title: "<span style='color: #000080;'>Alberto Binetti</span>"
-          subtitle: "Hi! I am a [Ph.D. candidate](https://www.youtube.com/watch?v=qqrCoyVK80I) in economics at <a href='https://economics.princeton.edu' style='color: #000080; font-weight: bold;'>Princeton</a> affiliated with the <a href='https://irs.princeton.edu/students' style='color: #000080; font-weight: bold;'>Industrial Relations Section</a>.
-          I received both my Bachelor's and my Master's from <a href='https://www.unibocconi.it/it/node/1' style='color: #000080; font-weight: bold;'>Bocconi</a>.
+          title: "<span style='color: var(--accent);'>Alberto Binetti</span>"
+          subtitle: "Hi! I am a [Ph.D. candidate](https://www.youtube.com/watch?v=qqrCoyVK80I) in economics at <a href='https://economics.princeton.edu' style='font-weight: bold;'>Princeton</a> affiliated with the <a href='https://irs.princeton.edu/students' style='font-weight: bold;'>Industrial Relations Section</a>.
+          I received both my Bachelor's and my Master's from <a href='https://www.unibocconi.it/it/node/1' style='font-weight: bold;'>Bocconi</a>.
           <br> <br>
           I am interested in labor and industrial organization, especially in innovation and inequality. From [Naples.](https://www.youtube.com/watch?v=Dqo730l_eCs)
           <br> <br>
-          You can find my CV <a href='cv.pdf' style='color: #000080; font-weight: bold;'>here</a>."
-          imageUrl: "headshot.png"
+          You can find my CV <a href='cv.pdf' style='font-weight: bold;'>here</a>."
+          imageUrl: "headshot_irs.jpg"
+          imageCrop: "4000x4000 Top"
           imageWidth: 160
           imageHeight: 160
           imageTitle: Alberto Binetti
@@ -72,6 +73,10 @@ params:
           url: https://twitter.com/Al_Bi99
 
     assets:
+        favicon: "favicon-accent.ico"
+        favicon16x16: "favicon-accent-16x16.png"
+        favicon32x32: "favicon-accent-32x32.png"
+        apple_touch_icon: "apple-touch-icon-accent.png"
         disableHLJS: true
         disableScrollBarStyle: true
     cover:
@@ -79,7 +84,7 @@ params:
         hiddenInSingle: true
     label:
       text: "Alberto Binetti"
-      icon: favicon.ico
+      icon: favicon-accent.ico
       iconHeight: 18
 
 markup:
@@ -93,3 +98,11 @@ markup:
         endLevel: 2
         ordered: false
         startLevel: 2
+
+# Make the original portrait available to Hugo image processing.
+module:
+    mounts:
+        - source: assets
+          target: assets
+        - source: static/headshot_irs.jpg
+          target: assets/headshot_irs.jpg

@@ -18,7 +18,9 @@
 }
 
 .profile img {
-    display: inline-table;
+    display: inline-block;
+    object-fit: cover;
+    aspect-ratio: 1;
     border-radius: 50%;
     border: 1px solid rgb(207, 207, 207);
 }
@@ -42,5 +44,5 @@
 }
 
 .button:hover {
-    background: var(--midpurple);
+    background: var(--accent-muted);
 }
