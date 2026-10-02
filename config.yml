@@ -110,6 +110,19 @@ params:
           favicon: "icons/favicon-black.png"
           appleicon: "icons/apple-touch-black.png"
 
+        - id: pink
+          name: Hot pink
+          hidden: true
+          accent: "#ff1493"
+          muted: "#f5b8d8"
+          soft: "#fde8f3"
+          surface: "#fbf3f8"
+          border: "#efdce7"
+          portrait: "portraits/headshot-pink.jpg"
+          icon: "icons/favicon-pink.svg"
+          favicon: "icons/favicon-pink.png"
+          appleicon: "icons/apple-touch-pink.png"
+
     socialIcons:
         - name: Email
           url: mailto:abinetti@princeton.edu

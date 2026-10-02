@@ -41,6 +41,17 @@ html[data-palette] .palette-switcher {
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .65);
 }
 
+/* Leave a generous, unclickable gap after black for the hidden pink option. */
+.palette-swatch-hidden {
+    margin-left: 36px;
+    background: transparent;
+    cursor: default;
+}
+
+.palette-swatch-hidden:hover {
+    box-shadow: none;
+}
+
 .palette-swatch:focus-visible {
     outline: 2px solid var(--accent);
     outline-offset: 4px;

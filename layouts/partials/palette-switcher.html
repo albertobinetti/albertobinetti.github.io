@@ -1,7 +1,7 @@
 <div class="palette-switcher" role="group" aria-label="Website color">
     {{- range site.Params.colorPalettes }}
-    <button class="palette-swatch" type="button" data-palette-choice="{{ .id }}"
-        style="--swatch-color: {{ .accent | safeCSS }}" title="{{ .name }}"
+    <button class="palette-swatch{{ if .hidden }} palette-swatch-hidden{{ end }}" type="button" data-palette-choice="{{ .id }}"
+        style="--swatch-color: {{ .accent | safeCSS }}"{{ if not .hidden }} title="{{ .name }}"{{ end }}
         aria-label="Use {{ lower .name }} colors" aria-pressed="{{ if eq .id "blue" }}true{{ else }}false{{ end }}">
     </button>
     {{- end }}
