@@ -1,0 +1,6 @@
+{{- $html := .page.RenderString (dict "display" "block") .body -}}
+{{- /* Bundle-relative files must also resolve when shown on the homepage. */ -}}
+{{- range .page.Resources -}}
+    {{- $html = replace $html (printf `href="%s"` .Name) (printf `href="%s"` .RelPermalink) -}}
+{{- end -}}
+{{- return ($html | safeHTML) -}}

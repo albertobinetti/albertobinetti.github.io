@@ -1,0 +1,42 @@
+{{ define "main" }}
+<div class="academic-layout">
+    <aside class="academic-profile" aria-labelledby="profile-name">
+        {{ with site.Params.profileMode }}
+        <div class="academic-profile-heading">
+            <h1 id="profile-name">{{ .title | default site.Title }}</h1>
+            {{ partial "palette-switcher.html" $ }}
+        </div>
+        <img id="profile-portrait" class="academic-portrait" src="{{ .imageUrl | relURL }}"
+            alt="{{ .imageTitle | default site.Title }}" width="160" height="160" fetchpriority="high">
+        <div class="academic-bio">{{ .subtitle | markdownify }}</div>
+        {{ end }}
+        <nav class="academic-contact" aria-label="Contact and profiles">
+            {{ range site.Params.socialIcons }}
+            <a class="academic-contact-icon" href="{{ .url | relURL | safeURL }}" aria-label="{{ .name }}" title="{{ .name }}">
+                {{ partial "svg.html" . }}
+            </a>
+            {{ end }}
+        </nav>
+    </aside>
+
+    <div class="academic-research" id="research">
+        <nav class="research-navigation" aria-label="Research sections">
+            {{ range site.Menus.main }}
+            <a href="#{{ trim .URL "/" }}">{{ .Name }}</a>
+            {{ end }}
+        </nav>
+        {{ range site.Menus.main }}
+        {{ $section := site.GetPage .URL }}
+        {{ with $section }}
+        <section class="research-section" id="{{ .Section }}"
+            aria-labelledby="heading-{{ .Section }}">
+            <h2 id="heading-{{ .Section }}">{{ if eq .Section "papers" }}Published papers{{ else }}{{ .Title }}{{ end }}</h2>
+            {{ range .RegularPages.ByDate.Reverse }}
+            {{ partial "home/research-entry.html" . }}
+            {{ end }}
+        </section>
+        {{ end }}
+        {{ end }}
+    </div>
+</div>
+{{ end }}

@@ -1,0 +1,28 @@
+{{- $page := . -}}
+{{- $downloads := "" -}}
+{{- $abstract := "" -}}
+{{- /* Reuse the paper's Markdown so the homepage and paper page stay in sync. */ -}}
+{{- range split .RawContent "##### " -}}
+    {{- $heading := index (split . "\n") 0 | replaceRE `^\s+|\s+$` "" -}}
+    {{- $body := replaceRE `(?m)^---\s*$` "" (replaceRE `^[^\n]*\n` "" .) | replaceRE `^\s+|\s+$` "" -}}
+    {{- if eq $heading "Download" -}}
+        {{- $downloads = partial "home/research-content.html" (dict "page" $page "body" $body) -}}
+    {{- else if eq $heading "Abstract" -}}
+        {{- $abstract = partial "home/research-content.html" (dict "page" $page "body" $body) -}}
+    {{- end -}}
+{{- end -}}
+<article class="research-entry" aria-labelledby="title-{{ .File.ContentBaseName }}">
+    <h3 id="title-{{ .File.ContentBaseName }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p class="research-authors">{{ delimit .Params.author ", " }}</p>
+    {{ with .Params.editPost }}
+    <p class="research-publication"><a href="{{ .URL }}">{{ .Text }}</a></p>
+    {{ end }}
+    <p class="research-description">{{ .Params.summary }}</p>
+    {{ with $abstract }}
+    <details class="research-details">
+        <summary><span class="details-show">[Show abstract]</span><span class="details-hide">[Hide abstract]</span></summary>
+        <div class="research-detail-body">{{ . }}</div>
+    </details>
+    {{ end }}
+    <div class="research-downloads" aria-label="Downloads for {{ .Title }}">{{ $downloads }}</div>
+</article>

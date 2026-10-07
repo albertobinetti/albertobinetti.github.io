@@ -14,7 +14,7 @@ menu:
         - name: Published papers
           url: papers/
           weight: 1
-        - name: Work in progress
+        - name: Working papers
           url: workinprogress/
           weight: 2
 
@@ -60,7 +60,7 @@ params:
           buttons:
             - name: Published papers
               url: papers/
-            - name: Work in progress
+            - name: Working papers
               url: workinprogress/
 
     colorPalettes:
