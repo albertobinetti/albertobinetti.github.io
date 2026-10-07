@@ -3,8 +3,8 @@ title: "Blameocracy: Causal Rhetoric in Politics"
 
 tags: ["text-as-data", "narratives", "donations", "voting"]
 author: ["Francesco Bilotta", "Alberto Binetti" ,"Giacomo Manferdini"]
-description: "This paper studies why and how much politicians rely on causal claims, their monetary returns, their usage, and their consequences for societal outcomes."
-summary: "This paper studies why and how much politicians rely on causal claims, their monetary returns, their usage, and their consequences for societal outcomes."
+description: "in which we study how blame shapes political accountability and generates returns"
+summary: "in which we study how blame shapes political accountability and generates returns"
 
 
 ---
