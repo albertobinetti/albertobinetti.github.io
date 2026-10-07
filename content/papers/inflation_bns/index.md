@@ -3,8 +3,8 @@ title: "People's Understanding of Inflation"
 date: 2024-11-01
 tags: ["Inflation", "survey", "experiment", "public perceptions", "unemployment"]
 author: ["Alberto Binetti","Francesco Nuzzi","Stefanie Stantcheva"]
-description: "in which we study whether people understand inflation and how they trade it off with inflation."
-summary: "in which we study whether people understand inflation and how they trade it off with inflation."
+description: "In which we study whether people understand inflation and how they trade it off with unemployment"
+summary: "In which we study whether people understand inflation and how they trade it off with unemployment"
 editPost:
     URL: "https://doi.org/10.1016/j.jmoneco.2024.103652"
     Text: "Journal of Monetary Economics, Vol. 148, 2024"
