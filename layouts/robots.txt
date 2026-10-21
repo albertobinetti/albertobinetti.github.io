@@ -1,0 +1,16 @@
+User-agent: *
+{{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+{{- /* Keep hidden palette images available to visitors but out of search. */}}
+{{- range site.Params.colorPalettes }}
+{{- if .hidden }}
+{{- range slice .portrait .icon .favicon .appleicon }}
+{{- with . }}
+Disallow: {{ . | relURL }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- end }}
+{{- else }}
+Disallow: /
+{{- end }}
+Sitemap: {{ "sitemap.xml" | absURL }}
