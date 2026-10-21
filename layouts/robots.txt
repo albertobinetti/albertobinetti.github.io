@@ -1,8 +1,8 @@
 User-agent: *
 {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-{{- /* Keep hidden palette images available to visitors but out of search. */}}
+{{- /* Only the blue palette's images should appear in search. */}}
 {{- range site.Params.colorPalettes }}
-{{- if .hidden }}
+{{- if ne .id "blue" }}
 {{- range slice .portrait .icon .favicon .appleicon }}
 {{- with . }}
 Disallow: {{ . | relURL }}

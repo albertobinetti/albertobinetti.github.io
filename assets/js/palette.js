@@ -63,10 +63,6 @@
                 try { localStorage.setItem(storageKey, palette.id); } catch (_) {}
             });
         });
-
-        // Preload visible choices; hidden portraits load only when selected.
-        palettes.filter(palette => !palette.hidden)
-            .forEach(palette => { new Image().src = palette.portrait; });
     }, { once: true });
 
     window.addEventListener('storage', event => {
