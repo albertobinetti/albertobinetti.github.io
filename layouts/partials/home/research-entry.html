@@ -24,5 +24,7 @@
         <div class="research-detail-body">{{ . }}</div>
     </details>
     {{ end }}
-    <div class="research-downloads" aria-label="Downloads for {{ .Title }}">{{ $downloads }}</div>
+    {{ with $downloads }}
+    <div class="research-downloads" aria-label="Downloads for {{ $page.Title }}">{{ . }}</div>
+    {{ end }}
 </article>

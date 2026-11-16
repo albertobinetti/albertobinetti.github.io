@@ -17,11 +17,14 @@ menu:
         - name: Working papers
           url: workinprogress/
           weight: 2
+        - name: Work in progress
+          url: projects/
+          weight: 3
 
 
 params:
     homeTitle: "Alberto Binetti | Economics Ph.D. Candidate at Princeton"
-    description: "Alberto Binetti is a Ph.D. candidate in economics at Princeton University, studying labor, industrial organization, innovation, and inequality."
+    description: "Alberto Binetti is a Ph.D. candidate in economics at Princeton University, interested in institutions and market design for emerging technologies from the perspectives of labor economics and industrial organization."
     images: ["portraits/headshot-blue.jpg"]
     author: Alberto Binetti
     # googleAnalyticsID: "G-XXXXX"
@@ -50,7 +53,7 @@ params:
           subtitle: "Hi! I am a <a class='subtle-link' href='https://www.youtube.com/watch?v=qqrCoyVK80I'>Ph.D. candidate</a> in economics at <a href='https://economics.princeton.edu' style='font-weight: bold;'>Princeton</a> affiliated with the <a href='https://irs.princeton.edu/students' style='font-weight: bold;'>Industrial Relations Section</a>.
           I received both my Bachelor's and my Master's from <a href='https://www.unibocconi.it/it/node/1' style='font-weight: bold;'>Bocconi</a>.
           <br> <br>
-          I am interested in labor and industrial organization, especially in innovation and inequality. From <a class='subtle-link' href='https://www.youtube.com/watch?v=Dqo730l_eCs'>Naples.</a>
+          I am interested in institutions and market design for emerging technologies, from the perspectives of labor economics and industrial organization. From <a class='subtle-link' href='https://www.youtube.com/watch?v=Dqo730l_eCs'>Naples.</a>
           <br> <br>
           You can find my CV <a href='cv.pdf' style='font-weight: bold;'>here</a>."
           imageUrl: "portraits/headshot-blue.jpg"
@@ -62,6 +65,8 @@ params:
               url: papers/
             - name: Working papers
               url: workinprogress/
+            - name: Work in progress
+              url: projects/
 
     colorPalettes:
         - id: blue

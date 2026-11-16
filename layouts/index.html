@@ -31,7 +31,9 @@
         <section class="research-section" id="{{ .Section }}"
             aria-labelledby="heading-{{ .Section }}">
             <h2 id="heading-{{ .Section }}">{{ if eq .Section "papers" }}Published papers{{ else }}{{ .Title }}{{ end }}</h2>
-            {{ range .RegularPages.ByDate.Reverse }}
+            {{ $pages := .RegularPages.ByDate.Reverse }}
+            {{ if eq .Section "projects" }}{{ $pages = .RegularPages.ByWeight }}{{ end }}
+            {{ range $pages }}
             {{ partial "home/research-entry.html" . }}
             {{ end }}
         </section>
