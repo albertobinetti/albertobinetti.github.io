@@ -77,7 +77,9 @@
     {{- partial "post_meta.html" . -}}
   </footer>
   {{- end }}
+  {{- if ne .Section "projects" }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+  {{- end }}
 </article>
 {{- end }}
 

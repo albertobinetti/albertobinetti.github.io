@@ -12,7 +12,7 @@
     {{- end -}}
 {{- end -}}
 <article class="research-entry" aria-labelledby="title-{{ .File.ContentBaseName }}">
-    <h3 id="title-{{ .File.ContentBaseName }}"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <h3 id="title-{{ .File.ContentBaseName }}">{{ if eq .Section "projects" }}{{ .Title }}{{ else }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</h3>
     <p class="research-authors">{{ delimit .Params.author ", " }}</p>
     {{ with .Params.editPost }}
     <p class="research-publication"><a href="{{ .URL }}">{{ .Text }}</a></p>
